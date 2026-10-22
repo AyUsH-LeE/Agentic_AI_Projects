@@ -1,0 +1,10 @@
+langchain
+langchain_community
+langchain-groq
+python-dotenv
+ipykernel
+langgraph
+streamlit
+# langchain-openai
+# langchain-google-genai
+# langchain-google-vertexai

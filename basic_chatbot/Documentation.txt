@@ -1,0 +1,41 @@
+Step 1: Install uv package manager:
+    macOS & Linux:
+        using curl: curl -LsSf https://astral.sh/uv/install.sh | sh     <----
+        using wget: curl -LsSf https://astral.sh/uv/install.sh | sh
+        get a specific version: curl -LsSf https://astral.sh/uv/0.13.5/install.sh | sh
+    Windows:
+        using PowerShell: powershell -c "irm https://astral.sh/uv/install.ps1 | more"
+
+Step 2: Open Project folder in terminal:
+    Command: cd folder_name     <-----
+
+Step 3: Initialize the Project Folder:
+    uv init     <-----
+    
+Step 4: Create virtual environment:
+    default python version: uv venv      <----
+    specific python version: uv venv --python 3.11
+
+Step 5: Add Dependencies:
+    Create requirements.txt
+    add libraries one by one inside requirements.txt
+
+Step 6: Activate the virtual environment:
+    source .venv/bin/activate      <-----
+
+Step 6: Install the required libraries in the environment:
+    uv add -r requirements.txt  <-----
+    uv pip install -r requirements.txt
+    uv add library_name
+
+Step 7: Create API Keys:
+    create a .env file in project folder
+    add environment variables in .env file
+    format: 
+        GROQ_API_KEY=your_groq_api_key
+        OPENROUTER_API_KEY=your_openrouter_api_key
+        GEMINI_API_KEY=your_gemini_api_key
+        OPENAI_API_KEY=your_openai_api_key
+        ANTHROPIC_API_KEY=your_anthropic_api_key
+
+Step 8: create .ipynb file for trial and error

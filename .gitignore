@@ -1,0 +1,50 @@
+# Environment & Secrets (CRITICAL)
+.env
+.env.*
+*.env
+!.env.example
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[oc]
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+wheels/
+*.egg-info
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+wheels/
+
+# macOS System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Editor & IDE configs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing & Coverage (if used later)
+.pytest_cache/
+.coverage
+htmlcov/
+*.ipynb
+/Important Documentation/
