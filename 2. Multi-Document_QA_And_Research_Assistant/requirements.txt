@@ -1,0 +1,18 @@
+langchain
+langchain_community
+langchain-groq
+python-dotenv
+ipykernel
+langgraph
+streamlit
+langchain-experimental
+langchain-chroma
+sentence-transformers
+langchain_huggingface
+faiss-cpu
+pypdf
+streamlit
+# langchain-openai
+# langchain-google-genai
+# langchain-google-vertexai
+python-docx
